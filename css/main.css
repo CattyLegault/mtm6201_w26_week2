@@ -76,6 +76,7 @@ HEADER / BANNER
     padding: 2rem;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-self: center;
 }
 
 /****************************************************
