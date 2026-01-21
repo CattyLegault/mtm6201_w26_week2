@@ -67,6 +67,8 @@ HEADER / BANNER
     /* adjust the h1 text using flex here */
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -75,8 +77,6 @@ HEADER / BANNER
     background-color: rgba(0, 0, 0, 0.5);
     text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
     padding: 2rem;
-    align-items: center;
-    flex-wrap: nowrap;
 }
 
 /****************************************************
