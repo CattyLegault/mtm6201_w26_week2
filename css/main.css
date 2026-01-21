@@ -233,7 +233,7 @@ MEDIA QUERIES (DESKTOP ONLY)
     .cards {
         /* use grid here to create 3 columns */
         display: grid;
-        grid-template-columns: repeat(1fr);
+        grid-template-columns: repeat(2fr);
     }
 
     .cards h2 {
