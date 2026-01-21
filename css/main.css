@@ -233,11 +233,13 @@ MEDIA QUERIES (DESKTOP ONLY)
     .cards {
         /* use grid here to create 3 columns */
         display: grid;
-        grid-template-columns: 30% 30% 30%;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
     }
 
     .cards h2 {
         /* use span or line numbering to make sure heading takes three columns */
+        grid-column: 1 / span 3;
     }
 
     /* NEWS – SAME AS YOUR ORIGINAL */
