@@ -247,10 +247,10 @@ MEDIA QUERIES (DESKTOP ONLY)
     .news {
         /* Use grid to create two columns and use area to place the items */
         display: grid;
+        gap: 10px;
         grid-template-areas: 
         "left right"
         "left right"
-        ". right right";
     }
 
     .news h2 {
