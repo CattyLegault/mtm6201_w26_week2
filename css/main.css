@@ -248,6 +248,7 @@ MEDIA QUERIES (DESKTOP ONLY)
         /* Use grid to create two columns and use area to place the items */
         display: grid;
         grid-template-columns: 1fr 60%;
+        grid-template-rows: 1fr;
         gap: 20px;
         grid-template-areas: 
         "left left right"
