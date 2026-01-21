@@ -245,6 +245,7 @@ MEDIA QUERIES (DESKTOP ONLY)
     /* NEWS – SAME AS YOUR ORIGINAL */
     .news {
         /* Use grid to create two columns and use area to place the items */
+        display: grid;
         grid-template-areas: 
         "left right"
         "left right"
