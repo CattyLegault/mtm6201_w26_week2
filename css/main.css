@@ -245,19 +245,23 @@ MEDIA QUERIES (DESKTOP ONLY)
     /* NEWS – SAME AS YOUR ORIGINAL */
     .news {
         /* Use grid to create two columns and use area to place the items */
-        
+        grid-template-areas: 
+        "";
     }
 
     .news h2 {
         /* name the area */
+        grid-area: h2;
     }
 
     .news .left {
         /* name the area */
+        grid-area: left;
     }
 
     .news .right {
         /* use grid to create two columns */
+        grid-area: right;
     }
 
     .news .right img {
