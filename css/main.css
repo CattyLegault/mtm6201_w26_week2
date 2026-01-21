@@ -232,6 +232,7 @@ MEDIA QUERIES (DESKTOP ONLY)
     /* CARDS */
     .cards {
         /* use grid here to create 3 columns */
+        display: grid;
     }
 
     .cards h2 {
