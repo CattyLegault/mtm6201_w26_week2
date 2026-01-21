@@ -255,6 +255,7 @@ MEDIA QUERIES (DESKTOP ONLY)
     .news h2 {
         /* name the area */
         grid-area: h2;
+        display: grid;
     }
 
     .news .left {
