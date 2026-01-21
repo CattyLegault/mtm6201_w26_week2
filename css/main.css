@@ -265,7 +265,7 @@ MEDIA QUERIES (DESKTOP ONLY)
     }
 
     .news .right img {
-        grid-area: right-img;
+        grid-area: right;
     }
 
     .copy {
