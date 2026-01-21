@@ -204,10 +204,13 @@ MEDIA QUERIES (DESKTOP ONLY)
         height: 500px;
     }
 
+    /* START HERE */
 
     /* NAV */
     .nav-list {
         /* use flex to make adjust the navigation links */
+        display: flex;
+        flex-direction: row;
     }
 
     .nav-list li {
