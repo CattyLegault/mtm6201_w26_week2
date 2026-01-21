@@ -65,6 +65,7 @@ HEADER / BANNER
     height: 320px;
     background: url(https://placehold.net/6-800x600.png) center/cover no-repeat;
     /* adjust the h1 text using flex here */
+    display: flex;
 
 }
 
