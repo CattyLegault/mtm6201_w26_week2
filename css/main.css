@@ -211,6 +211,7 @@ MEDIA QUERIES (DESKTOP ONLY)
         /* use flex to make adjust the navigation links */
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
     }
 
     .nav-list li {
