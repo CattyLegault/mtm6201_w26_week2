@@ -219,6 +219,7 @@ MEDIA QUERIES (DESKTOP ONLY)
         border-right: 1px solid #EA85A3;
         /* think about a flex property which can help you to adjust the size */
         align-items: center;
+        flex-grow: 1;
     }
 
     .nav-list li:last-child {
