@@ -211,13 +211,14 @@ MEDIA QUERIES (DESKTOP ONLY)
         /* use flex to make adjust the navigation links */
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     .nav-list li {
         border-bottom: none;
         border-right: 1px solid #EA85A3;
         /* think about a flex property which can help you to adjust the size */
+        align-items: center;
     }
 
     .nav-list li:last-child {
